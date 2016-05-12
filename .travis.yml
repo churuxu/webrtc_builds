@@ -2,7 +2,7 @@ language: android
 install:
   - git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
   - export DEPOT_TOOLS_HOME=$(pwd)/depot_tools
-  - export PATH=$DEPOT_TOOLS_HOME:$PATH
+  - export PATH=$(pwd):$DEPOT_TOOLS_HOME:$PATH
 script:
   - chmod +x android-make.sh
   - ./android-make.sh 
