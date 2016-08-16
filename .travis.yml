@@ -4,7 +4,6 @@ install:
   - export DEPOT_TOOLS_HOME=$(pwd)/depot_tools
   - export PATH=$(pwd):$DEPOT_TOOLS_HOME:$PATH
 script:
-  - alias git=mygit
   - chmod +x android-make.sh
   - ./android-make.sh 
 branches:
