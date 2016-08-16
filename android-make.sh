@@ -9,7 +9,7 @@ echo ==================================================
 gclient help runhooks  
 alias git=mygit
 df -h
-gclient sync -H  || exit 1
+gclient sync -H --no-history || exit 1
 df -h
 gclient runhooks --no-history  || exit 1
 df -h
