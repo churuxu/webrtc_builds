@@ -1,2 +1,3 @@
+echo usemygit
 $(dirname $0)/depot_tools/git $* --depth 1
 
