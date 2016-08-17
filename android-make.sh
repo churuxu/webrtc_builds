@@ -2,7 +2,7 @@
 
 df -h
 fetch --help
-fetch --nohooks --no-history webrtc_android || exit 1
+fetch --nohooks --no-history breakpad || exit 1
 echo ==================================================
 gclient help sync  
 echo ==================================================
