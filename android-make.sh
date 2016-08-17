@@ -3,9 +3,6 @@ ls $DEPOT_TOOLS_HOME
 df -h
 fetch --help
 echo ==================================================
-gclient help sync  
-echo ==================================================
-gclient help runhooks  
 git --version
 alias git=mygit
 git --version
