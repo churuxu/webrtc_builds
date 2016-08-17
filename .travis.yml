@@ -1,4 +1,5 @@
 language: android
+sudo: required
 install:
   - git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
   - export DEPOT_TOOLS_HOME=$(pwd)/depot_tools
