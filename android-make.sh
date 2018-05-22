@@ -1,11 +1,13 @@
 #/bin/bash
 df -h
 
-echo fetch ... 
-fetch --nohooks --no-history webrtc_android || exit 1
+echo fetch ...
+fetch help 
+fetch --nohooks --no-history v8 || exit 1
 df -h
 
 echo sync ... 
+fetch help sync
 gclient sync --no-history || exit 1
 df -h
 
